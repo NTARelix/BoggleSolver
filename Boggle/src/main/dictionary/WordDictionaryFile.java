@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class WordDictionaryFile extends WordDictionary
 {
-	public WordDictionaryFile(File file)
+	public WordDictionaryFile(final File file)
 	{
 		super();
 		Scanner sc;

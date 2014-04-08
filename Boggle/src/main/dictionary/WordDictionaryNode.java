@@ -12,8 +12,8 @@ import java.util.Map;
  */
 class WordDictionaryNode
 {
-	private char letter;
-	private Map<Character, WordDictionaryNode> nexts;
+	private final char letter;
+	private final Map<Character, WordDictionaryNode> nexts;
 	private boolean isWord;
 	
 	/**
@@ -22,7 +22,7 @@ class WordDictionaryNode
 	 * @param letter	Node's letter
 	 * @param isWord	Whether current node finishes a word
 	 */
-	public WordDictionaryNode(char letter, boolean isWord)
+	public WordDictionaryNode(final char letter, final boolean isWord)
 	{
 		this.letter = letter;
 		this.nexts = new HashMap<Character, WordDictionaryNode>();

@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class BoggleGrid
 {
-	private BoggleDie[][] dice;
+	private final BoggleDie[][] dice;
 	
 	/**
 	 * Constructor
@@ -22,7 +22,8 @@ public class BoggleGrid
 	 * @param width		width of grid; must be positive integer
 	 * @param height	height of grid; must be positive integer
 	 */
-	public BoggleGrid(BoggleDieFactory factory, int width, int height)
+	public BoggleGrid(final BoggleDieFactory factory,
+					  final int width, final int height)
 	{
 		this.dice = new BoggleDie[width][height];
 		for (int x=0; x<width; x++)
@@ -37,7 +38,7 @@ public class BoggleGrid
 	 * @param 	y grid's y position
 	 * @return	die at given position
 	 */
-	public BoggleDie get(int x, int y)
+	public BoggleDie get(final int x, final int y)
 	{
 		return this.dice[x][y];
 	}

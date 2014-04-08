@@ -4,12 +4,12 @@ import java.util.Random;
 
 public class BoggleDieFactory
 {
-	private static String[] possibleSides = {
+	private static final String[] possibleSides = {
 		"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
 		"N", "O", "P", "Qu", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
 	};
 	
-	private BoggleDie[] dieBag;
+	private final BoggleDie[] dieBag;
 	private int current;
 	
 	/**
@@ -18,7 +18,7 @@ public class BoggleDieFactory
 	 * @param sideCount	number of sides per die
 	 * @param dieCount	number of dice to preload
 	 */
-	public BoggleDieFactory(int sideCount, int dieCount)
+	public BoggleDieFactory(final int sideCount, final int dieCount)
 	{
 		this.current = 0;
 		dieBag = new BoggleDie[dieCount];

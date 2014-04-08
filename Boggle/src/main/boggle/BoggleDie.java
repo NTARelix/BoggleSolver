@@ -4,12 +4,12 @@ import java.util.Random;
 
 public class BoggleDie
 {
-	private String[] sides;
+	private final String[] sides;
 	private int upIndex;
 	
-	public BoggleDie(String[] sides)
+	public BoggleDie(final String[] sides)
 	{
-		this.sides = sides;
+		this.sides = sides.clone();
 		this.upIndex = 0;
 	}
 	

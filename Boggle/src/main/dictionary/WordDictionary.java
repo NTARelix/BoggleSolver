@@ -8,7 +8,7 @@ package main.dictionary;
  */
 public class WordDictionary
 {
-	private WordDictionaryNode start;
+	private final WordDictionaryNode start;
 	
 	/**
 	 * Constructor
@@ -23,7 +23,7 @@ public class WordDictionary
 	 * 
 	 * @param word	word to add
 	 */
-	public void addWord(String word)
+	public void addWord(final String word)
 	{
 		this.start.addWord(word.toLowerCase());
 	}
@@ -34,7 +34,7 @@ public class WordDictionary
 	 * @param word	search word
 	 * @return		true if word found, false otherwise
 	 */
-	public boolean hasWord(String word)
+	public boolean hasWord(final String word)
 	{
 		return this.start.hasWord(word.toLowerCase());
 	}
@@ -45,7 +45,7 @@ public class WordDictionary
 	 * @param prefix	search prefix
 	 * @return			true if prefix found, false otherwise
 	 */
-	public boolean hasPrefix(String prefix)
+	public boolean hasPrefix(final String prefix)
 	{
 		return this.start.hasPrefix(prefix.toLowerCase());
 	}
