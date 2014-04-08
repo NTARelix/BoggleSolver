@@ -1,4 +1,4 @@
-package org.kevinkoshiol.boggle;
+package main.boggle;
 
 import java.util.Random;
 

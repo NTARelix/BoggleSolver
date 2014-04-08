@@ -1,4 +1,4 @@
-package org.kevinkoshiol.boggle;
+package main.dictionary;
 
 import java.util.HashMap;
 import java.util.Map;

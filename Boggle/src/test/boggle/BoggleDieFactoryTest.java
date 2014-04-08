@@ -1,10 +1,10 @@
-package org.kevinkoshiol.boggle.test;
+package test.boggle;
 
 import static org.junit.Assert.*;
+import main.boggle.BoggleDie;
+import main.boggle.BoggleDieFactory;
 
 import org.junit.Test;
-import org.kevinkoshiol.boggle.BoggleDie;
-import org.kevinkoshiol.boggle.BoggleDieFactory;
 
 public class BoggleDieFactoryTest
 {

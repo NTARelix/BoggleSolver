@@ -1,4 +1,4 @@
-package org.kevinkoshiol.boggle;
+package main.boggle;
 
 import java.io.PrintStream;
 import java.util.Collections;

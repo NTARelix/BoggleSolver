@@ -1,4 +1,4 @@
-package org.kevinkoshiol.boggle;
+package main.dictionary;
 
 /**
  * Container for possible words in boggle game.

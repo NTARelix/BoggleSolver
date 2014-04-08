@@ -1,4 +1,4 @@
-package org.kevinkoshiol.boggle.test;
+package test.dictionary;
 
 import static org.junit.Assert.*;
 
@@ -6,12 +6,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+import main.dictionary.WordDictionaryFile;
+
 import org.junit.Test;
-import org.kevinkoshiol.boggle.WordDictionaryFile;
 
 public class WordDictionaryFileTest
 {
-	private static File wordfile = new File("src/data/nouns.txt");
+	private static File wordfile = new File("data/nouns.txt");
 	private WordDictionaryFile wdf;
 	
 	public WordDictionaryFileTest()

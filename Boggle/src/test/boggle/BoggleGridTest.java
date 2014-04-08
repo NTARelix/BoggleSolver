@@ -1,10 +1,9 @@
-package org.kevinkoshiol.boggle.test;
+package test.boggle;
 
-import static org.junit.Assert.*;
+import main.boggle.BoggleDieFactory;
+import main.boggle.BoggleGrid;
 
 import org.junit.Test;
-import org.kevinkoshiol.boggle.BoggleDieFactory;
-import org.kevinkoshiol.boggle.BoggleGrid;
 
 public class BoggleGridTest
 {
