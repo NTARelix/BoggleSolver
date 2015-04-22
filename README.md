@@ -3,6 +3,7 @@ Finds all words from a given dictionary in a game of boggle.
 
 ## Demos
 A demonstration of the solver can be found in test.boggle.solved.SolvedBoggleGridTest
+
 Various other demonstrations can also be found in the test package
 
 ## Design
